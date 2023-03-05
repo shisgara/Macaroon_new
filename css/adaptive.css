@@ -150,7 +150,7 @@
 }
 
 /* 425 - 767 */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 766px) {
     .menu {
         display: none;
     }
