@@ -42,6 +42,7 @@ body {
 @font-face {
     font-family: Tavolga;
     src: url("../fonts/tavolga_free.woff2");
+    font-weight: 400;
 }
 
 
@@ -148,6 +149,7 @@ body {
 
 .header__title {
     font-family: Tavolga, sans-serif;
+    font-weight: 400;
     font-size: 55px;
     color: rgb(255, 255, 255);
     line-height: 1.091;
@@ -391,13 +393,13 @@ body {
 }
 
 .order__image {
-    position: relative;
     margin-right: 163px;
+    transform: translateY(100px);
 }
 
 .order__berry-one {
     position: absolute;
-    top: -30px;
+    top: 76px;
     left: -25px;
     animation: jump 3s infinite linear;
 }
