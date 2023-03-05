@@ -322,6 +322,7 @@ body {
 
 .catalog__title {
     text-align: center;
+    font-weight: 400;
     color: #fff;
     margin-bottom: 143px;
 }
@@ -425,6 +426,7 @@ body {
 
 .order__title {
     margin-bottom: 41px;
+    font-weight: 400;
 }
 
 .order_desc {
