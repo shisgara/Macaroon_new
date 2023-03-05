@@ -117,6 +117,10 @@
     .benefits__info {
         margin: 0;
     }
+    .order__inner{
+        justify-content: center;
+        align-items: flex-end;
+    }
 
     .order__info {
         max-width: 406px;
@@ -126,9 +130,10 @@
 
     .order__image {
         width: 352px;
+        margin-right: 0;
         order: 2;
-        position: absolute;
-        transform: translate(333px, 285px);
+        position: unset;
+        transform: translateY(15%);
     }
 
     .order__berry-one {
@@ -152,6 +157,16 @@
 
     .container {
         max-width: 737px;
+    }
+
+    .order__inner{
+        justify-content: center;
+    }
+
+    .order__berry-one{
+        left: unset;
+        top: 25%;
+        right: 15%;
     }
 
     .header__top {
@@ -238,11 +253,6 @@
         order: unset;
     }
 
-    .order__berry-one {
-        top: 145px;
-        left: 309px;
-    }
-
     .input, .order__btn {
         width: 100%;
     }
@@ -286,11 +296,6 @@
         top: 40px;
     }
 
-    .order__berry-one {
-        top: 145px;
-        left: 261px;
-    }
-
     .menu {
         display: flex;
         align-items: center;
@@ -310,7 +315,6 @@
         opacity: 1;
         z-index: 2;
     }
-
 
     .menu__list {
         flex-direction: column;
@@ -358,7 +362,7 @@
 
 /* 375 - 424 */
 @media screen and (max-width: 424px) {
-    .header__action{
+    .header__action {
         position: relative;
         z-index: 2;
     }
@@ -368,44 +372,47 @@
 /* 320 - 374px */
 @media screen and (max-width: 320px) {
 
-    .header__title{
+    .header__title {
         font-size: 46px;
     }
 
-    .benefits{
+    .benefits {
         padding-top: 60px;
     }
 
-    .benefits__title{
+    .benefits__title {
         font-size: 36px;
     }
 
-    .benefits__items{
+    .benefits__items {
         grid-template-columns: 1fr;
     }
 
 
-    .catalog{
+    .catalog {
         padding: 50px 0 50px;
     }
 
-    .catalog__items{
+    .catalog__items {
         row-gap: 100px;
     }
 
-    .catalog__title{
+    .catalog__title {
+        font-size: 25px;
         margin-bottom: 100px;
     }
-.order__berry-one{
-    width: 50px;
-    top: 179px;
-    left: 234px;
-}
-    .order{
+
+    .order__berry-one {
+        width: 50px;
+        top: 179px;
+        left: 234px;
+    }
+
+    .order {
         padding: 50px 0 50px;
     }
 
-    .order__btn{
+    .order__btn {
         font-size: 15px;
     }
 }
